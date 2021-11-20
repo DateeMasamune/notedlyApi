@@ -2,10 +2,10 @@
 // This is the main entry point of our application
 /**
  * для запуска mongosh запускаем cmd от имени админа пишем команду mongosh
- * запускаем mongod на диске С в папке MongoDB
- * запускаем скрипт в терминале npm run dev
+ * запускаем mongod на диске С в папке MongoDB (не обязательно)
  * запускаем web/ npm run dev
- * Глава 14. Работа с Apollo Client Пагинация стр 166
+ * запускаем сервер из папки /api, npm start для запросов
+ * Глава 15. Аутентификация и состояние Мутация signUp стр 174
  */
 
 const express = require('express')
